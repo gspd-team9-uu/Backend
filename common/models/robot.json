@@ -1,0 +1,26 @@
+{
+  "name": "Robot",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "PositionX": {
+      "type": "number",
+      "required": true
+    },
+    "PositionY": {
+      "type": "number",
+      "required": true
+    },
+    "BluetoothName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

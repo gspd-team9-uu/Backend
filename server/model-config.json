@@ -12,5 +12,17 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Robot": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Package": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Action": {
+    "dataSource": "db",
+    "public": true
   }
 }
