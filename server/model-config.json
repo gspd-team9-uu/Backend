@@ -13,15 +13,15 @@
       "./mixins"
     ]
   },
-  "Robot": {
+  "robot": {
     "dataSource": "db",
     "public": true
   },
-  "Package": {
+  "package": {
     "dataSource": "db",
     "public": true
   },
-  "Action": {
+  "action": {
     "dataSource": "db",
     "public": true
   }

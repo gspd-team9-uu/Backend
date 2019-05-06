@@ -1,18 +1,24 @@
 {
-  "name": "Action",
+  "name": "action",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Action": {
+    "type": {
       "type": "number",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "robot": {
+      "type": "belongsTo",
+      "model": "robot",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

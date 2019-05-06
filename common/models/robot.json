@@ -1,26 +1,32 @@
 {
-  "name": "Robot",
+  "name": "robot",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "PositionX": {
+    "positionX": {
       "type": "number",
       "required": true
     },
-    "PositionY": {
+    "positionY": {
       "type": "number",
       "required": true
     },
-    "BluetoothName": {
+    "bluetoothName": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "actions": {
+      "type": "hasMany",
+      "model": "action",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

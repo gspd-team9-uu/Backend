@@ -1,28 +1,28 @@
 {
-  "name": "Package",
+  "name": "package",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "PositionX-1": {
+    "positionX-1": {
       "type": "number",
       "required": true
     },
-    "PositionY-1": {
+    "positionY-1": {
       "type": "number",
       "required": true
     },
-    "PositionX-2": {
+    "positionX-2": {
       "type": "number",
       "required": true
     },
-    "PositionY-2": {
+    "positionY-2": {
       "type": "number",
       "required": true
     },
-    "Delivered": {
+    "delivered": {
       "type": "boolean",
       "required": true
     }
